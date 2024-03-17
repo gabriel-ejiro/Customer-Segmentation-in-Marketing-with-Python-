@@ -1,0 +1,9 @@
+Model Evaluation and Results
+In this part of the project, you must analyse the results of the segmentation you've already performed. Follow these three steps:
+
+Use the hierarchical clustering results to select the optimal number of clusters and run a k-means algorithm with the determined number.
+Create a summary table for each cluster and its characteristics and add several observations and the proportion of observations column for each.
+Come up with names and explanations for each cluster. 
+You can rely on the characteristics of the data. We have information about the students’ engagement level, CLV, country region, and the acquisition channel. So, for example, you might have a cluster of highly engaged Eastern European customers who have heard about us via YouTube or Google. You might label this segment European YouTube Google Mix.
+
+Similarly, you should find characteristics and labels for the remainder of the segments.
