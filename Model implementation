@@ -1,0 +1,9 @@
+After the exploratory part of the analysis, you have now prepared your dataset for the main part of the analysis, clustering.
+
+Model Implementation: Implement two clustering techniques: K-means and Hierarchical Clustering. You should specify the necessary parameters for these algorithms. Use appropriate methods to determine the optimal number of clusters, like the Elbow Method for k-means. Follow these steps:
+
+Before you begin, you must standardize the data to perform the clustering accurately. You can use the standard scaler to fit and transform the data.
+Once you’ve standardized the data, you can implement the hierarchical clustering algorithm by Ward’s method.
+Next, you must perform k-means segmentation. Here, you won’t be able to predetermine the correct number of clusters, so you must explore varying clusters and use the elbow method to determine the best possible solution.
+Finally, determine the best possible number of clusters. If there are inconsistencies between the two methods regarding the optimal number, you must opt for the results of hierarchical clustering. But, you’ll ultimately perform k-means, with the number of clusters predetermined through the hierarchical clustering.
+Finally, before continuing to the next part, consider possible reasons why the results of the two algorithms might differ.
